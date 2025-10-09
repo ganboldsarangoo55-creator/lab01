@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>TheFacebook Profile</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e7ecf0;
+    margin: 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  td {
+    vertical-align: top;
+    padding: 5px;
+  }
+  .header {
+    background-color: #4267b2;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    text-align: left;
+  }
+  .menu {
+    background-color: #6d84b4;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #f5f6f7;
+    border-right: 1px solid #ccc;
+  }
+  .sidebar h3 {
+    background-color: #6d84b4;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    margin: 0;
+  }
+  .sidebar a {
+    display: block;
+    padding: 3px 8px;
+    text-decoration: none;
+    color: #333;
+  }
+  .sidebar a:hover {
+    background-color: #dfe3ee;
+  }
+  .content {
+    padding: 10px;
+  }
+  .section-title {
+    background-color: #6d84b4;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+  }
+  .info-table td {
+    padding: 3px 8px;
+  }
+  .profile-pic {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+  }
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="3" class="header">
+      [thefacebook]
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="3" class="menu">
+      <a href="#">home</a>
+      <a href="#">search</a>
+      <a href="#">global</a>
+      <a href="#">social net</a>
+      <a href="#">invite</a>
+      <a href="#">faq</a>
+      <a href="#">logout</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="sidebar">
+      <h3>quick search</h3>
+      <input type="text" style="width: 90%; margin: 5px;"><br>
+      <button style="margin: 5px;">go</button>
+      <hr>
+      <a href="#">My Profile</a>
+      <a href="#">My Groups</a>
+      <a href="#">My Friends</a>
+      <a href="#">My Messages</a>
+      <a href="#">My Account</a>
+      <a href="#">My Privacy</a>
+    </td>
+
+    <td class="content" style="width: 300px;">
+      <div class="section-title">Picture</div>
+      <img src="https://via.placeholder.com/250x200" alt="Profile Picture" class="profile-pic">
+      <div style="text-align:center;">
+        <button>Edit</button>
+      </div>
+    </td>
+
+    <td class="content">
+      <div class="section-title">Information</div>
+      <table class="info-table">
+        <tr><td><b>Name:</b></td><td>Scott Pearson</td></tr>
+        <tr><td><b>Email:</b></td><td>pearsons2@scranton.edu</td></tr>
+        <tr><td><b>Status:</b></td><td>Alumnus</td></tr>
+        <tr><td><b>Year:</b></td><td>2004</td></tr>
+        <tr><td><b>Concentration:</b></td><td>Computing Sciences</td></tr>
+        <tr><td><b>Interests:</b></td><td>Drinking, Football, Basketball, Tennis</td></tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="3" class="footer">
+      TheFacebook © 2005 
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
